@@ -45,7 +45,8 @@
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
-					<a class="navbar-brand" href="${contextRoot}/home">HOME</a>
+					<a class="navbar-brand" href="${contextRoot}/home"><img src="${images}/frontlogo.png" alt="yan" width="200px" height="24px"/><img src="${images}/logo.jpeg" alt="kart" width="200px" height="24px"/></a>
+					&#160;&#160;<a class="navbar-brand" href="${contextRoot}/home">HOME</a>
 				</div>
 			</div>
 		</nav>
