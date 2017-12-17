@@ -10,17 +10,14 @@
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="${contextRoot}/home"><img src="${images}/frontlogo.png" alt="yan" width="200px" height="24px"/><img src="${images}/logo.jpeg" alt="kart" width="200px" height="24px"/></a>
+			<a class="navbar-brand" href="${contextRoot}/home"><img src="${images}/frontlogo.png" alt="yan" width="200px" height="20px"/><img src="${images}/logo.jpeg" alt="kart" width="200px" height="24px"/></a>
 		</div>
 
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li id="home"><a href="${contextRoot}/home">HOME</a></li>
-				<li id="about"><a href="${contextRoot}/about">ABOUT</a></li>
-
-				<li id="contact"><a href="${contextRoot}/contact">CONTACT</a></li>
-
+			
 				<li id="listProducts"><a
 					href="${contextRoot}/show/all/products">VIEW PROUDCTS</a></li>
 
@@ -31,7 +28,19 @@
                     </security:authorize>
                 </ul>
                 
-                <ul class="nav navbar-nav navbar-right">                
+                <ul class="nav navbar-nav navbar-right">      
+                	<!-- - -->
+				<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More Info <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+           
+            <li class="divider"></li>
+            <li id="about"><a href="${contextRoot}/about">ABOUT</a></li>
+            <li class="divider"></li>
+           <li id="contact"><a href="${contextRoot}/contact">CONTACT</a></li>
+          </ul>
+        </li>
+				<!--  -->          
                     <security:authorize access="isAnonymous()">
 	                    <li id="register">
 	                        <a href="${contextRoot}/register">Sign Up</a>

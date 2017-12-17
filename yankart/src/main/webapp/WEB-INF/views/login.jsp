@@ -45,10 +45,19 @@
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
-					<a class="navbar-brand" href="${contextRoot}/home"><img src="${images}/frontlogo.png" alt="yan" width="200px" height="24px"/><img src="${images}/logo.jpeg" alt="kart" width="200px" height="24px"/></a>
-					&#160;&#160;<a class="navbar-brand" href="${contextRoot}/home">HOME</a>
+					<a class="navbar-brand" href="${contextRoot}/home"><img src="${images}/frontlogo.png" alt="yan" width="200px" height="20px"/><img src="${images}/logo.jpeg" alt="kart" width="200px" height="24px"/></a>
+					&#160;&#160;
 				</div>
-			</div>
+			
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                 <li id="home">
+                        <a href="${contextRoot}/home">Home</a>
+                    </li>
+       
+                </ul>
+  </div>  
+  </div>
 		</nav>
 
 		<!-- Page Content -->
@@ -56,6 +65,7 @@
 		<div class="content">
 
 			<div class="container">
+			 
 				<%-- this will be displayed if the credentials are wrong --%>
 				<c:if test="${not empty message}">
 					<div class="row">

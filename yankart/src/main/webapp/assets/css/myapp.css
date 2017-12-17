@@ -209,9 +209,6 @@ input:checked + .slider:before {
 
 
 #container_2 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+   background-repeat:no-repeat;
+    background-position:left center;
 }

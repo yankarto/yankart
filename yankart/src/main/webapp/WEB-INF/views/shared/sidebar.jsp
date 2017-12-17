@@ -8,4 +8,4 @@
 	</c:forEach>
 
           </div><br/><br/><br/>
-       <div id="container_2"><img src="${images}/logo.png" /></div>
+       <div id="container_2"><img src="${images}/logo.gif" /></div>
