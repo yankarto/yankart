@@ -48,5 +48,6 @@ Maven: For building and managing Java projects
 MySQL: Database server for storing application data
 
 
-Thank you for visiting our project! We hope this e-commerce platform serves as a valuable resource for your needs. Happy coding! 🚀
-Karthik 
+Thank you for visiting our project! We hope this e-commerce platform serves as a valuable resource for your needs. 
+
+Happy coding! 🚀 Karthik 
